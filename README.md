@@ -1,66 +1,38 @@
-## Foundry
+# ERC20 Core Starter
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Starter template to build an ERC-20 Core Contract using the Modular Contract framework
 
-Foundry consists of:
+## Features
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- Modular Contract framework
+- Forge pre-installed
+- Solady pre-installed
+
+## Run locally
+
+Compile contract 
+
+```
+forge build
+```
+
+## Deploy Contract
+
+To run this contract, run the following in the CLI
+
+```
+npx thirdweb deploy
+```
 
 ## Documentation
 
-https://book.getfoundry.sh/
+- [Documentation](https://portal.thirdweb.com)
+- [Modular Contract documentation - coming soon]
 
-## Usage
+## Contributing
 
-### Build
+Contributions are always welcome! See our [open source page](https://thirdweb.com/open-source) for more information. 
 
-```shell
-$ forge build
-```
+## Support 
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+For help or feedback, please [visit our support site](https://thirdweb.com/support)
